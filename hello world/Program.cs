@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +31,18 @@ namespace hello_world
             //Console.WriteLine(date2);
 
 
+
+            //int age = 21;
+            //age++;
+            //Console.WriteLine(age);
+
+            //age--;
+            //Console.WriteLine(age);
+
+
+            string name = "sevindu";
+            name += " is a sigma boy with different attitude.";
+            Console.WriteLine(name);
 
             Console.ReadLine();
         }
