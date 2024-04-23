@@ -40,9 +40,16 @@ namespace hello_world
             //Console.WriteLine(age);
 
 
-            string name = "sevindu";
-            name += " is a sigma boy with different attitude.";
-            Console.WriteLine(name);
+            //string name = "sevindu";
+            //name += " is a sigma boy with different attitude.";
+            //Console.WriteLine(name);
+
+
+            //int firstNum = 10;
+            //int secondNum = 3;
+
+            //int cal = firstNum % secondNum;
+            //Console.WriteLine(cal);
 
             Console.ReadLine();
         }
