@@ -65,7 +65,7 @@ namespace hello_world
 
             //Console.Write("Enter you name: ");
             //string name = Console.ReadLine();
-            
+
             //Console.Write("Enter your age: ");
             //string ageString = Console.ReadLine();
             //int age = Convert.ToInt32(ageString);
@@ -73,6 +73,20 @@ namespace hello_world
             //Console.WriteLine();
 
             //Console.WriteLine($"Hello {name}, how are you!. Your age is {age}.");
+
+
+            Console.Write("Enter you age: ");
+            string ageString = Console.ReadLine();
+            int age = Convert.ToInt32(ageString);
+
+            if (age >= 18) 
+            {
+                Console.WriteLine("You are an adult");
+            }
+            else
+            {
+                Console.WriteLine("You are a child");
+            }
 
             Console.ReadLine();
         }
