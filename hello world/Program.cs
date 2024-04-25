@@ -57,6 +57,11 @@ namespace hello_world
 
             //Console.WriteLine(balance + (balance * (vat/100D)));
 
+            //int num1 = 21;
+            //int num2 = 20;
+
+            //Console.WriteLine(num2 %2);
+
             Console.ReadLine();
         }
     }
