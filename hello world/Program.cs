@@ -62,6 +62,18 @@ namespace hello_world
 
             //Console.WriteLine(num2 %2);
 
+
+            //Console.Write("Enter you name: ");
+            //string name = Console.ReadLine();
+            
+            //Console.Write("Enter your age: ");
+            //string ageString = Console.ReadLine();
+            //int age = Convert.ToInt32(ageString);
+
+            //Console.WriteLine();
+
+            //Console.WriteLine($"Hello {name}, how are you!. Your age is {age}.");
+
             Console.ReadLine();
         }
     }
