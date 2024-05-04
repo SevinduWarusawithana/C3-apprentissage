@@ -76,12 +76,17 @@ namespace hello_world
 
 
             Console.Write("Enter you age: ");
+
             string ageString = Console.ReadLine();
             int age = Convert.ToInt32(ageString);
 
-            if (age >= 18) 
+            if (age >= 60) 
             {
-                Console.WriteLine("You are an adult");
+                Console.WriteLine("You are an elder");
+            }
+            else if (age >= 18 && age <= 60)
+            {
+                Console.WriteLine("You are a adult");
             }
             else
             {
