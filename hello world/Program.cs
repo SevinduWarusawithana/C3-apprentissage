@@ -75,6 +75,7 @@ namespace hello_world
             //Console.WriteLine($"Hello {name}, how are you!. Your age is {age}.");
 
 
+            /*
             Console.Write("Enter you age: ");
 
             string ageString = Console.ReadLine();
@@ -92,6 +93,7 @@ namespace hello_world
             {
                 Console.WriteLine("You are a child");
             }
+            */
 
             Console.ReadLine();
         }
